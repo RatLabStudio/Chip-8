@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chip-8 | Rat Lab Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Chip-8 Emulator</h1>
+    <a href="https://ratlabstudio.com">Rat Lab Studio 2024</a>
+    
+    <br><br><br><br>
+
+    <div class="monitor">
+        <canvas class="screen"></canvas>
+        <div class="indicatorContainer">
+            <div class="indicator" style="background-color: lightgreen;"></div>
+            <div class="indicator" style="background-color: orange;"></div>
+            <div class="indicator" style="background-color: tomato;"></div>
+        </div>
+        <div class="floppyDrive"></div>
+    </div>
+
+    <script type="module" src="scripts/chip8.js"></script>
+</body>
+
+</html>

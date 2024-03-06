@@ -1,0 +1,78 @@
+html, body {
+    background-color: rgb(45, 45, 45);
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 4vh;
+    color: rgb(43, 248, 255);
+    text-decoration: underline;
+}
+
+a {
+    color: orange;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.monitor {
+    background-color: rgb(255, 228, 193);
+    width: 75%;
+    aspect-ratio: 1;
+    margin: auto;
+    border: solid 1vh rgb(216, 194, 164);
+    border-radius: 2vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 2vh 2vh 8vh rgba(0, 0, 0, 0.5);
+}
+
+.screen {
+    border: 1vh solid rgb(32, 32, 32);
+    border-radius: 2vh;
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+}
+
+.indicatorContainer {
+    height: 20px;
+    width: 30vh;
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+}
+
+.indicator {
+    background-color: black;
+    height: 100%;
+    aspect-ratio: 1;
+    margin-right: 20px;
+    float: left;
+    border: solid 2px gray;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+}
+
+.floppyDrive {
+    height: 20px;
+    width: 50%;
+    position: absolute;
+    bottom: 19%;
+    right: 7%;
+    background-color: black;
+    border: solid 2px gray;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+}
