@@ -20,7 +20,7 @@ function init() {
     startTime = then;
 
     cpu.loadSpritesIntoMemory();
-    cpu.loadRom('TEST');
+    cpu.loadRom('SNAKE');
     loop = requestAnimationFrame(step);
 }
 
